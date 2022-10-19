@@ -1,0 +1,184 @@
+estilos.css
+ h1 {
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(250, 253, 255);
+ }
+  .titulo{
+    color: blanchedalmond;
+    padding: 0;
+    padding-left: 0;
+    text-align: center;
+    font-size: 50px;
+  }
+ 
+  @media screen and (max-width: 480px) {
+    body {background-color: aliceblue;}
+    header { display: none;}
+    .publicidad{display: none;}
+  
+  }
+  
+  .navegador {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration:dashed;
+    font-style:oblique;
+    font-size:x-large; 
+  }
+  a:hover {
+    color:blue;
+    font-size: 30px;
+    font-weight: bold; 
+  }
+  button{
+    background:gray;
+    width: 200px;
+    height: 50px;
+    align-content:space-around;
+    border:double;
+    border-radius: 10%;
+    border-top: 10%;
+    padding-left: 15%;
+    padding-right: 20%;
+    margin-bottom: 1%;
+    user-select:contain;
+    }
+  
+ul li {
+  margin-top: 0%;
+  display: inline-block;
+  color: blanchedalmond;
+  text-align: center; 
+}
+ 
+ol li  {
+  display:flex;
+  text-decoration:none;
+  margin-top: 0%;
+  color: blanchedalmond;
+  text-align: center;
+  
+   }
+
+body {
+
+  background-color: rgb(0, 0, 0);
+}
+
+p {
+  font-style: negrita;
+  margin: 5%;
+  padding-left: 0%;
+}
+
+
+.encabezado {
+  
+  width: 100%;
+  height: 400px;
+}
+
+.alarmasimg {
+  
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+.parlantesimg {
+  
+  width:255px;
+  height:255px;
+  background-color: rgb(8, 8, 8);
+}
+h1{
+  margin-top: 0%;
+}
+h2 {
+  margin-top: 0%;
+  color: blanchedalmond;
+  padding: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 25px;
+
+}
+.imageni1{
+  margin: auto 0%;
+  padding: auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(8, 8, 8);
+}
+.div_h2 {
+  
+  background-color: red;
+  border:double;
+}
+
+.padre-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-content:center;
+  padding:0;
+  margin-top: auto;
+  border-bottom: 10%;
+}
+.padre-flex1 {
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap:wrap;
+  justify-content:right;
+  align-content:space-between;
+  margin: 3%;
+  padding: 0%;
+  
+}
+.padre-flex2 {
+  display:flex;
+  flex-direction:row;
+  justify-content:left;
+  padding:0%;
+  margin: 0%;
+  border: 0%;
+}
+.padre-flex3 {
+  display:flex;
+  flex-direction:row-reverse;
+  padding: 0%;
+  margin: 3%;
+  border: 3%;
+  
+  
+}
+.logos{
+  height: 255px;
+  width: 280px;
+} 
+form {
+  flex: flex;
+  flex-direction:column;
+  float: left;
+
+  background-color:grey;
+  border-color: red;
+  
+}
+.imageni2{
+  
+  width: 700px;
+  height: 600px;
+  background-color: rgb(8, 8, 8);
+}
+.imageni3{
+  
+  width: 260px;
+  height: 255px;
+  background-color: rgb(8, 8, 8);
+}
